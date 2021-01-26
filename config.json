@@ -1,0 +1,32 @@
+{
+    "services": {
+        "proxy": {
+            "port": 10000
+        },
+        "auth": {
+            "port": 10001
+        },
+        "storage": {
+            "port": 10002
+        },
+        "users": {
+            "port": 10003
+        }
+    },
+    "security": {
+        "jwt_key": "test123!"
+    },
+    "db": {
+        "username": "Natasha",
+        "password": "userpass555",
+        "host": "firstcluster.fqdoi.mongodb.net",
+        "dbname": "jsa08_project"
+    },
+    "weather": {
+        "api_key": "key..."
+    },
+    "email": {
+        "api_key": "key",
+        "secret": "test..."
+    }
+}
