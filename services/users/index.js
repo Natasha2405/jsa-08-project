@@ -27,9 +27,9 @@ api.put('/users/:id', users.update);
 api.patch('/users/:id', users.updatePartial);
 api.delete('/users/:id', users.remove);
 
-api.listen(cfg.get('services').auth.port, err => {
+api.listen(cfg.get('services').users.port, err => {
     if (err) {
         return console.error(err);
     }
-    console.log(`Server successfully started on port ${cfg.get('services'.auth).port}`);
+    console.log(`Server successfully started on port ${cfg.get('services').users.port}`);
 });
