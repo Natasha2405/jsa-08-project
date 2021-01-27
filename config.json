@@ -17,9 +17,9 @@
         "jwt_key": "test123!"
     },
     "db": {
-        "username": "Natasha",
-        "password": "userpass555",
-        "host": "firstcluster.fqdoi.mongodb.net",
+        "username": "",
+        "password": "",
+        "host": "",
         "dbname": "jsa08_project"
     },
     "weather": {
